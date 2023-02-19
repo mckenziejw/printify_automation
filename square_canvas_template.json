@@ -1,0 +1,47 @@
+{
+    "title": "Product",
+    "description": "Good product",
+    "blueprint_id": 193,
+    "print_provider_id": 2,
+    "variants": [
+          {
+              "id": 75743,
+              "price": 4000,
+              "is_enabled": true
+          },
+          {
+              "id": 75744,
+              "price": 4000,
+              "is_enabled": true
+          },
+          {
+              "id": 75741,
+              "price": 5000,
+              "is_enabled": true
+          },
+          {
+              "id": 75742,
+              "price": 5000,
+              "is_enabled": true
+          }
+      ],
+      "print_areas": [
+        {
+          "variant_ids": [75743,75744,75741,75742],
+          "placeholders": [
+            {
+              "position": "front",
+              "images": [
+                  {
+                    "id": "", 
+                    "x": 0.5, 
+                    "y": 0.5, 
+                    "scale": 1,
+                    "angle": 0
+                  }
+              ]
+            }
+          ]
+        }
+      ]
+  }
